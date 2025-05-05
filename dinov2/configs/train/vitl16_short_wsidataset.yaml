@@ -1,0 +1,9 @@
+# this corresponds to the default config
+train:
+  dataset_path: WSIDataset:root=/cluster/CBIO/data1/ablondel1/WSI_vesper_data/data_alice/random_1_300000/TCGA-D8-A1J8-01Z-00-DX2.5DCB3447-548D-442C-86B1-CEF79B8689DF.h5
+  batch_size_per_gpu: 32
+  output_dir: "/cluster/CBIO/data1/ablondel1/WSI_vesper_data/data_alice/train/v0/"
+student:
+  block_chunks: 1
+crops:
+  global_crops_size: 224
